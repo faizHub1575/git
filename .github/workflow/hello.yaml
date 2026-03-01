@@ -1,0 +1,16 @@
+name: bhai ka hello
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  greet:
+    run-on: ubuntu:latest
+    steps:
+      -name: say hello to Salman bhai
+       run: echo "hello bhau"
+
+      -name: say hello to Salman bhai
+       run: echo "hello bhau"
+	
